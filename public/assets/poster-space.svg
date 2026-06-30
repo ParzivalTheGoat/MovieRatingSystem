@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" role="img" aria-label="星际回声">
+  <rect width="320" height="460" fill="#18191d"/>
+  <circle cx="160" cy="175" r="88" fill="#126d63"/>
+  <circle cx="160" cy="175" r="54" fill="#26221e"/>
+  <circle cx="86" cy="92" r="4" fill="#fffdf8"/>
+  <circle cx="246" cy="118" r="5" fill="#fffdf8"/>
+  <circle cx="224" cy="246" r="3" fill="#fffdf8"/>
+  <path d="M54 318 C120 280 200 282 266 318" fill="none" stroke="#d5a85d" stroke-width="8"/>
+  <text x="160" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#fffdf8">星际回声</text>
+</svg>
+

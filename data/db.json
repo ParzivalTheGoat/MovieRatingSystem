@@ -1,0 +1,296 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "passwordHash": "240be518fabd2724c546baf8d98d12caceebb6de22a0c142290b8b12584f7945",
+      "name": "系统管理员",
+      "role": "ADMIN",
+      "email": "admin@example.com",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-30T08:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "username": "user1",
+      "passwordHash": "c4ad70720b0afb08171ad8e53d76a5a8355d1a971ab51c4510c23649cc5d4393",
+      "name": "李明",
+      "role": "USER",
+      "email": "liming@example.com",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-30T08:10:00.000Z"
+    },
+    {
+      "id": 3,
+      "username": "user2",
+      "passwordHash": "c4ad70720b0afb08171ad8e53d76a5a8355d1a971ab51c4510c23649cc5d4393",
+      "name": "王蕾",
+      "role": "USER",
+      "email": "wanglei@example.com",
+      "status": "ACTIVE",
+      "createdAt": "2026-06-30T08:12:00.000Z"
+    }
+  ],
+  "actors": [
+    {
+      "id": 1,
+      "name": "张译",
+      "gender": "男",
+      "birthDate": "1978-02-17",
+      "nationality": "中国",
+      "photoUrl": "assets/actor-zhangyi.svg",
+      "bio": "中国内地男演员，擅长现实主义题材表演。"
+    },
+    {
+      "id": 2,
+      "name": "周迅",
+      "gender": "女",
+      "birthDate": "1974-10-18",
+      "nationality": "中国",
+      "photoUrl": "assets/actor-zhouxun.svg",
+      "bio": "中国内地女演员，代表作品覆盖电影和电视剧。"
+    },
+    {
+      "id": 3,
+      "name": "梁朝伟",
+      "gender": "男",
+      "birthDate": "1962-06-27",
+      "nationality": "中国",
+      "photoUrl": "assets/actor-liang.svg",
+      "bio": "华语电影演员，表演风格细腻。"
+    },
+    {
+      "id": 4,
+      "name": "马丽",
+      "gender": "女",
+      "birthDate": "1982-06-28",
+      "nationality": "中国",
+      "photoUrl": "assets/actor-mali.svg",
+      "bio": "中国内地女演员，擅长喜剧和现实题材。"
+    }
+  ],
+  "directors": [
+    {
+      "id": 1,
+      "name": "宁浩",
+      "gender": "男",
+      "birthDate": "1977-09-09",
+      "nationality": "中国",
+      "bio": "中国电影导演，作品兼具类型表达和现实观察。"
+    },
+    {
+      "id": 2,
+      "name": "陈可辛",
+      "gender": "男",
+      "birthDate": "1962-11-28",
+      "nationality": "中国",
+      "bio": "华语电影导演，擅长人物群像和情感叙事。"
+    },
+    {
+      "id": 3,
+      "name": "贾樟柯",
+      "gender": "男",
+      "birthDate": "1970-05-24",
+      "nationality": "中国",
+      "bio": "中国电影导演，关注社会变迁中的人物命运。"
+    }
+  ],
+  "movies": [
+    {
+      "id": 1,
+      "title": "城市光影",
+      "releaseYear": 2021,
+      "duration": 118,
+      "genre": "剧情",
+      "language": "普通话",
+      "country": "中国",
+      "synopsis": "一名城市纪录片摄影师在旧城改造中重新理解家庭与职业选择。",
+      "posterUrl": "assets/poster-city.svg",
+      "rating": 8.8,
+      "ratingCount": 2,
+      "createdAt": "2026-06-30T08:20:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "星际回声",
+      "releaseYear": 2023,
+      "duration": 136,
+      "genre": "科幻",
+      "language": "普通话",
+      "country": "中国",
+      "synopsis": "深空通信团队收到来自未来的模糊信号，并由此展开跨越时间的选择。",
+      "posterUrl": "assets/poster-space.svg",
+      "rating": 9.2,
+      "ratingCount": 2,
+      "createdAt": "2026-06-30T08:24:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "归途列车",
+      "releaseYear": 2020,
+      "duration": 105,
+      "genre": "家庭",
+      "language": "普通话",
+      "country": "中国",
+      "synopsis": "春节前夕，一家人在漫长旅途中修复多年误解。",
+      "posterUrl": "assets/poster-train.svg",
+      "rating": 7.6,
+      "ratingCount": 2,
+      "createdAt": "2026-06-30T08:26:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "午夜喜剧",
+      "releaseYear": 2022,
+      "duration": 96,
+      "genre": "喜剧",
+      "language": "普通话",
+      "country": "中国",
+      "synopsis": "剧场经理和一群新人演员在首演夜处理连续发生的意外。",
+      "posterUrl": "assets/poster-comedy.svg",
+      "rating": 8.1,
+      "ratingCount": 1,
+      "createdAt": "2026-06-30T08:28:00.000Z"
+    }
+  ],
+  "movieActors": [
+    {
+      "movieId": 1,
+      "actorId": 1,
+      "roleName": "摄影师陈默"
+    },
+    {
+      "movieId": 1,
+      "actorId": 2,
+      "roleName": "记者林青"
+    },
+    {
+      "movieId": 2,
+      "actorId": 3,
+      "roleName": "通信工程师周远"
+    },
+    {
+      "movieId": 2,
+      "actorId": 2,
+      "roleName": "项目负责人沈岚"
+    },
+    {
+      "movieId": 3,
+      "actorId": 1,
+      "roleName": "父亲"
+    },
+    {
+      "movieId": 3,
+      "actorId": 4,
+      "roleName": "母亲"
+    },
+    {
+      "movieId": 4,
+      "actorId": 4,
+      "roleName": "剧场经理"
+    }
+  ],
+  "movieDirectors": [
+    {
+      "movieId": 1,
+      "directorId": 3
+    },
+    {
+      "movieId": 2,
+      "directorId": 2
+    },
+    {
+      "movieId": 3,
+      "directorId": 2
+    },
+    {
+      "movieId": 4,
+      "directorId": 1
+    }
+  ],
+  "ratings": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "userId": 2,
+      "score": 9,
+      "createdAt": "2026-06-30T09:10:00.000Z"
+    },
+    {
+      "id": 2,
+      "movieId": 1,
+      "userId": 3,
+      "score": 8.5,
+      "createdAt": "2026-06-30T09:12:00.000Z"
+    },
+    {
+      "id": 3,
+      "movieId": 2,
+      "userId": 2,
+      "score": 9.5,
+      "createdAt": "2026-06-30T09:20:00.000Z"
+    },
+    {
+      "id": 4,
+      "movieId": 2,
+      "userId": 3,
+      "score": 9,
+      "createdAt": "2026-06-30T09:22:00.000Z"
+    },
+    {
+      "id": 5,
+      "movieId": 3,
+      "userId": 2,
+      "score": 7,
+      "createdAt": "2026-06-30T09:25:00.000Z"
+    },
+    {
+      "id": 6,
+      "movieId": 3,
+      "userId": 3,
+      "score": 8.2,
+      "createdAt": "2026-06-30T09:27:00.000Z"
+    },
+    {
+      "id": 7,
+      "movieId": 4,
+      "userId": 3,
+      "score": 8.1,
+      "createdAt": "2026-06-30T09:35:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "movieId": 1,
+      "userId": 2,
+      "content": "影片节奏克制，城市空间和人物关系结合得很好。",
+      "createdAt": "2026-06-30T09:40:00.000Z"
+    },
+    {
+      "id": 2,
+      "movieId": 2,
+      "userId": 3,
+      "content": "科幻设定完整，结尾有回味。",
+      "createdAt": "2026-06-30T09:43:00.000Z"
+    },
+    {
+      "id": 3,
+      "movieId": 3,
+      "userId": 2,
+      "content": "适合做家庭题材分析，人物冲突比较清楚。",
+      "createdAt": "2026-06-30T09:48:00.000Z"
+    }
+  ],
+  "meta": {
+    "nextIds": {
+      "users": 4,
+      "actors": 5,
+      "directors": 4,
+      "movies": 5,
+      "ratings": 8,
+      "comments": 4
+    }
+  }
+}
+

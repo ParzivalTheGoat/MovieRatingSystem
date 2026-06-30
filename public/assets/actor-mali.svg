@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="马丽">
+  <rect width="160" height="160" rx="16" fill="#f6e7e2"/>
+  <circle cx="80" cy="62" r="30" fill="#a23a3a"/>
+  <path d="M34 140 C42 106 118 106 126 140" fill="#d99075"/>
+  <text x="80" y="150" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="18" font-weight="700" fill="#242424">马丽</text>
+</svg>
+

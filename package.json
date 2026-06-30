@@ -1,0 +1,18 @@
+{
+  "name": "movie-rating-system",
+  "version": "1.0.0",
+  "description": "数据库应用课程设计：电影评分系统，本地 Node.js Web 系统。",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node scripts/check-system.js"
+  },
+  "keywords": [
+    "course-design",
+    "database",
+    "movie-rating"
+  ],
+  "author": "Course Project",
+  "license": "UNLICENSED"
+}
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-label="电影评分系统">
+  <rect width="900" height="620" fill="#26221e"/>
+  <rect x="90" y="110" width="720" height="400" rx="18" fill="#f0d7a1"/>
+  <rect x="125" y="145" width="650" height="330" rx="12" fill="#3d3931"/>
+  <circle cx="230" cy="310" r="82" fill="#126d63"/>
+  <circle cx="230" cy="310" r="32" fill="#f6f4ef"/>
+  <circle cx="670" cy="310" r="82" fill="#b76e21"/>
+  <circle cx="670" cy="310" r="32" fill="#f6f4ef"/>
+  <rect x="318" y="255" width="264" height="110" rx="10" fill="#fffdf8"/>
+  <text x="450" y="300" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="30" font-weight="700" fill="#242424">电影评分系统</text>
+  <text x="450" y="340" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="18" fill="#6b6860">Movie Rating System</text>
+</svg>
+

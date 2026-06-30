@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" role="img" aria-label="电影海报">
+  <rect width="320" height="460" fill="#d8d3c7"/>
+  <rect x="42" y="92" width="236" height="188" rx="12" fill="#fffdf8"/>
+  <circle cx="118" cy="186" r="42" fill="#126d63"/>
+  <circle cx="202" cy="186" r="42" fill="#b76e21"/>
+  <text x="160" y="380" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="28" font-weight="700" fill="#242424">电影海报</text>
+</svg>
+

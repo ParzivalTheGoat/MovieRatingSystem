@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="460" viewBox="0 0 320 460" role="img" aria-label="归途列车">
+  <rect width="320" height="460" fill="#efe8dc"/>
+  <rect x="44" y="130" width="232" height="160" rx="16" fill="#126d63"/>
+  <rect x="72" y="162" width="54" height="44" rx="6" fill="#fffdf8"/>
+  <rect x="142" y="162" width="54" height="44" rx="6" fill="#fffdf8"/>
+  <rect x="212" y="162" width="34" height="44" rx="6" fill="#fffdf8"/>
+  <circle cx="94" cy="306" r="22" fill="#292720"/>
+  <circle cx="224" cy="306" r="22" fill="#292720"/>
+  <path d="M32 342 H288" stroke="#b76e21" stroke-width="9"/>
+  <text x="160" y="430" text-anchor="middle" font-family="Microsoft YaHei, Arial" font-size="34" font-weight="700" fill="#242424">归途列车</text>
+</svg>
+

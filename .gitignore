@@ -1,0 +1,36 @@
+# Runtime and dependency folders
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+
+# Generated temporary files
+*.tmp
+*.temp
+~$*.docx
+~$*.doc
+
+# Logs
+logs/
+*.log
+
+# Render/QA intermediate files
+render_*/
+*.pdf
+
+# Keep project data and deliverables versioned
+!data/db.json
+!reports/*.docx
