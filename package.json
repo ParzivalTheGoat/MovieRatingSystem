@@ -4,7 +4,9 @@
   "description": "数据库应用课程设计：电影评分系统，本地 Node.js Web 系统。",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node scripts/start-local.js",
+    "stop": "node scripts/stop-local.js",
+    "smoke": "node scripts/api-smoke-test.js",
     "check": "node scripts/check-system.js"
   },
   "keywords": [
@@ -15,4 +17,3 @@
   "author": "Course Project",
   "license": "UNLICENSED"
 }
-

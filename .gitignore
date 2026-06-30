@@ -20,6 +20,7 @@ desktop.ini
 # Generated temporary files
 *.tmp
 *.temp
+tmp/
 ~$*.docx
 ~$*.doc
 

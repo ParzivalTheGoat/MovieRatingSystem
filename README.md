@@ -17,13 +17,19 @@
 
 ```powershell
 cd "D:\Course Project\movie-rating-system"
-node server.js
+node scripts\start-local.js
 ```
 
 浏览器访问：
 
 ```text
 http://127.0.0.1:3000
+```
+
+停止服务：
+
+```powershell
+node scripts\stop-local.js
 ```
 
 ## 默认账号

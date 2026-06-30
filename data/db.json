@@ -107,7 +107,7 @@
       "synopsis": "一名城市纪录片摄影师在旧城改造中重新理解家庭与职业选择。",
       "posterUrl": "assets/poster-city.svg",
       "rating": 8.8,
-      "ratingCount": 2,
+      "ratingCount": 3,
       "createdAt": "2026-06-30T08:20:00.000Z"
     },
     {
@@ -257,6 +257,13 @@
       "userId": 3,
       "score": 8.1,
       "createdAt": "2026-06-30T09:35:00.000Z"
+    },
+    {
+      "id": 8,
+      "movieId": 1,
+      "userId": 1,
+      "score": 8.8,
+      "createdAt": "2026-06-30T09:02:02.152Z"
     }
   ],
   "comments": [
@@ -288,7 +295,7 @@
       "actors": 5,
       "directors": 4,
       "movies": 5,
-      "ratings": 8,
+      "ratings": 9,
       "comments": 4
     }
   }
