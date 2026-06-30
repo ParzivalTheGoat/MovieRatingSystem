@@ -1,9 +1,9 @@
 USE movie_rating_system;
 
 INSERT INTO users (username, password_hash, real_name, role, email) VALUES
-('admin', '240be518fabd2724c546baf8d98d12caceebb6de22a0c142290b8b12584f7945', '系统管理员', 'ADMIN', 'admin@example.com'),
-('user1', 'c4ad70720b0afb08171ad8e53d76a5a8355d1a971ab51c4510c23649cc5d4393', '李明', 'USER', 'liming@example.com'),
-('user2', 'c4ad70720b0afb08171ad8e53d76a5a8355d1a971ab51c4510c23649cc5d4393', '王蕾', 'USER', 'wanglei@example.com');
+('admin', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', '系统管理员', 'ADMIN', 'admin@example.com'),
+('user1', 'e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446', '李明', 'USER', 'liming@example.com'),
+('user2', 'e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446', '王蕾', 'USER', 'wanglei@example.com');
 
 INSERT INTO actors (name, gender, birth_date, nationality, photo_url, bio) VALUES
 ('张译', '男', '1978-02-17', '中国', 'assets/actor-zhangyi.svg', '中国内地男演员，擅长现实主义题材表演。'),
@@ -54,4 +54,3 @@ INSERT INTO comments (movie_id, user_id, content) VALUES
 CALL sp_movie_comments('城市');
 CALL sp_actor_movies('张译');
 CALL sp_genre_report();
-

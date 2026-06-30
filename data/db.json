@@ -3,7 +3,7 @@
     {
       "id": 1,
       "username": "admin",
-      "passwordHash": "240be518fabd2724c546baf8d98d12caceebb6de22a0c142290b8b12584f7945",
+      "passwordHash": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
       "name": "系统管理员",
       "role": "ADMIN",
       "email": "admin@example.com",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "username": "user1",
-      "passwordHash": "c4ad70720b0afb08171ad8e53d76a5a8355d1a971ab51c4510c23649cc5d4393",
+      "passwordHash": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
       "name": "李明",
       "role": "USER",
       "email": "liming@example.com",
@@ -23,7 +23,7 @@
     {
       "id": 3,
       "username": "user2",
-      "passwordHash": "c4ad70720b0afb08171ad8e53d76a5a8355d1a971ab51c4510c23649cc5d4393",
+      "passwordHash": "e606e38b0d8c19b24cf0ee3808183162ea7cd63ff7912dbb22b5e803286b4446",
       "name": "王蕾",
       "role": "USER",
       "email": "wanglei@example.com",
@@ -293,4 +293,3 @@
     }
   }
 }
-
